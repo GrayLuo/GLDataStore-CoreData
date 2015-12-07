@@ -20,6 +20,9 @@
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 
+- (NSManagedObjectContext *)managedObjectContext ;
+- (NSManagedObjectModel *)managedObjectModel;
+
 
 @end
 
